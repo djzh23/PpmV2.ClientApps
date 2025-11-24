@@ -20,6 +20,7 @@ C:\Dev\projects\dotnet\_active-projects\PpmV2.ClientApps\PpmV2.UI.Web\obj\Debug\
 C:\Dev\projects\dotnet\_active-projects\PpmV2.ClientApps\PpmV2.UI.Web\obj\Debug\net10.0\PpmV2.UI.Web.AssemblyInfo.cs
 C:\Dev\projects\dotnet\_active-projects\PpmV2.ClientApps\PpmV2.UI.Web\obj\Debug\net10.0\PpmV2.UI.Web.csproj.CoreCompileInputs.cache
 C:\Dev\projects\dotnet\_active-projects\PpmV2.ClientApps\PpmV2.UI.Web\obj\Debug\net10.0\PpmV2.UI.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Dev\projects\dotnet\_active-projects\PpmV2.ClientApps\PpmV2.UI.Web\obj\Debug\net10.0\PpmV2.UI.Web.sourcelink.json
 C:\Dev\projects\dotnet\_active-projects\PpmV2.ClientApps\PpmV2.UI.Web\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Dev\projects\dotnet\_active-projects\PpmV2.ClientApps\PpmV2.UI.Web\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Dev\projects\dotnet\_active-projects\PpmV2.ClientApps\PpmV2.UI.Web\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
@@ -28,7 +29,7 @@ C:\Dev\projects\dotnet\_active-projects\PpmV2.ClientApps\PpmV2.UI.Web\obj\Debug\
 C:\Dev\projects\dotnet\_active-projects\PpmV2.ClientApps\PpmV2.UI.Web\obj\Debug\net10.0\scopedcss\Components\Layout\ReconnectModal.razor.rz.scp.css
 C:\Dev\projects\dotnet\_active-projects\PpmV2.ClientApps\PpmV2.UI.Web\obj\Debug\net10.0\scopedcss\bundle\PpmV2.UI.Web.styles.css
 C:\Dev\projects\dotnet\_active-projects\PpmV2.ClientApps\PpmV2.UI.Web\obj\Debug\net10.0\scopedcss\projectbundle\PpmV2.UI.Web.bundle.scp.css
-C:\Dev\projects\dotnet\_active-projects\PpmV2.ClientApps\PpmV2.UI.Web\obj\Debug\net10.0\compressed\oggpablfs3-{0}-8u53shnhcx-8u53shnhcx.gz
+C:\Dev\projects\dotnet\_active-projects\PpmV2.ClientApps\PpmV2.UI.Web\obj\Debug\net10.0\compressed\oggpablfs3-{0}-ztuk06xaoh-ztuk06xaoh.gz
 C:\Dev\projects\dotnet\_active-projects\PpmV2.ClientApps\PpmV2.UI.Web\obj\Debug\net10.0\compressed\z0jvjd9wfr-{0}-bqjiyaj88i-bqjiyaj88i.gz
 C:\Dev\projects\dotnet\_active-projects\PpmV2.ClientApps\PpmV2.UI.Web\obj\Debug\net10.0\compressed\6jw0ewq72h-{0}-c2jlpeoesf-c2jlpeoesf.gz
 C:\Dev\projects\dotnet\_active-projects\PpmV2.ClientApps\PpmV2.UI.Web\obj\Debug\net10.0\compressed\sar6aw5uw7-{0}-erw9l3u2r3-erw9l3u2r3.gz

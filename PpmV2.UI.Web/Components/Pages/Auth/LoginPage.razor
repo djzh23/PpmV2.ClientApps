@@ -1,0 +1,23 @@
+﻿@page "/login"
+@rendermode InteractiveServer
+@inject NavigationManager Nav
+
+@using PpmV2.UI.Shared.Auth
+
+<Login registered="@registered" />
+
+@code {
+    private bool registered;
+
+    protected override void OnInitialized()
+    {
+        var uri = Nav.ToAbsoluteUri(Nav.Uri);
+        var query = Microsoft.AspNetCore.WebUtilities.QueryHelpers.ParseQuery(uri.Query);
+
+        if (query.TryGetValue("registered", out var value))
+        {
+            registered = value == "true";
+        }
+    }
+}
+

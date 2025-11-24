@@ -1,15 +1,27 @@
-@page "/login"
+ï»¿@* @page "/login" *@
 
+@using Microsoft.AspNetCore
 @using System.ComponentModel.DataAnnotations
 @using Microsoft.AspNetCore.Components.Forms
 @using PpmV2.UI.Shared.Models
+@inject NavigationManager Nav
 
-<EditForm Model="_model" OnValidSubmit="HandleValidSubmit">
+
+@if (Registered)
+{
+    <div class="alert alert-success auth-alert">
+        âœ… Deine Registrierung war erfolgreich. Du kannst dich jetzt anmelden.
+    </div>
+}
+
+<EditForm FormName="loginForm"
+          Model="_model"
+          OnValidSubmit="HandleValidSubmit">
     <DataAnnotationsValidator />
     <ValidationSummary />
     <div class="auth-container">
         <div class="auth-card">
-            <h1>Willkommen zurück</h1>
+            <h1>Willkommen zurÃ¼ck</h1>
             <p class="auth-subtitle">Melde dich mit deiner E-Mail an</p>
 
             <div class="form-group">
@@ -48,17 +60,35 @@
 </EditForm>
 
 @code {
+    // Parameter that LoginPage.razor can set
+    [Parameter]
+    public bool Registered { get; set; }
     private LoginModel _model = new();
+
+    // private bool _showRegistrationSuccess;
+
+
+    // protected override void OnInitialized()
+    // {
+    //     var uri = new Uri(Nav.Uri);
+    //     var query = Microsoft.AspNetCore.WebUtilities.QueryHelpers.ParseQuery(uri.Query);
+
+    //     if (query.TryGetValue("registered", out var values) &&
+    //         string.Equals(values.ToString(), "true", StringComparison.OrdinalIgnoreCase))
+    //     {
+    //         _showRegistrationSuccess = true;
+    //     }
+    // }
 
     private void HandleValidSubmit()
     {
-        // TODO: später: API-Call an dein Backend + Token speichern
+        // TODO: spÃ¤ter: API-Call an dein Backend + Token speichern
         Console.WriteLine($"Login attempt: {_model.Email}");
     }
 
     private void LoginWithGoogle()
     {
-        // TODO: später: Redirect zum Google OAuth-Endpunkt
+        // TODO: spÃ¤ter: Redirect zum Google OAuth-Endpunkt
         Console.WriteLine("Google Login clicked");
     }
 }

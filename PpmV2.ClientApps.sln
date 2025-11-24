@@ -1,13 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11217.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PpmV2.UI.Web", "PpmV2.UI.Web\PpmV2.UI.Web.csproj", "{2F0C21DD-A893-45B5-BEA2-B099DBE0108E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PpmV2.UI.Shared", "PpmV2.UI.Shared\PpmV2.UI.Shared.csproj", "{C4452A0C-1982-4675-B112-6E441D4C5006}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PpmV2.UI.Maui", "PpmV2.UI.Maui\PpmV2.UI.Maui.csproj", "{E74D6D3E-9711-41B8-9122-871FD1F9B8FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{89AE2D14-EBC8-4000-B25F-9D12CD96F738}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -58,5 +63,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A68AD60-00CC-491E-8A79-C18467EFB387}
 	EndGlobalSection
 EndGlobal

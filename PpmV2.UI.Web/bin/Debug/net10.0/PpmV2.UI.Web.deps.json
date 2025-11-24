@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "PpmV2.UI.Web/1.0.0": {
+        "dependencies": {
+          "PpmV2.UI.Shared": "1.0.0"
+        },
+        "runtime": {
+          "PpmV2.UI.Web.dll": {}
+        }
+      },
+      "PpmV2.UI.Shared/1.0.0": {
+        "runtime": {
+          "PpmV2.UI.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PpmV2.UI.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PpmV2.UI.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

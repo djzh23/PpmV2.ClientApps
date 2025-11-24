@@ -1,8 +1,6 @@
-using Microsoft.AspNetCore.Components.Web;
 using PpmV2.UI.Shared;
-using PpmV2.UI.Shared.Services;
+using PpmV2.UI.Shared.Auth.Services;
 using PpmV2.UI.Web.Components;
-using PpmV2.UI.Web.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,13 +10,12 @@ builder.Services.AddRazorComponents()
 
 
 //builder.Services.AddScoped<IAuthService, MockAuthService>();
-builder.Services.AddHttpClient<IAuthService, ApiAuthService>(client =>
+builder.Services.AddHttpClient<IAuthApiClient, AuthApiClient>(client =>
 {
-    // TODO: enter real backend URL here
-    // client.BaseAddress = new Uri("https://ppm-backend.onrender.com/api/");
     client.BaseAddress = new Uri("https://ppmv2-hbb4.onrender.com/api/");
 });
 
+builder.Services.AddScoped<IAuthService, AuthService>();
 
 
 var app = builder.Build();

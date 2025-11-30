@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PpmV2.UI.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17e39e40adbd583eb26b26f20c42f5a8cd25b627")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f72b225132a2dbba94e5abf6f17d7326691d5ddd")]
 [assembly: System.Reflection.AssemblyProductAttribute("PpmV2.UI.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PpmV2.UI.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
